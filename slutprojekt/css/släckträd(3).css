@@ -1,0 +1,35 @@
+body{ 
+    margin:auto;
+    background-image:url("../img/slcäkträd\(1\).jpg")  ;
+    height:100vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    }
+    .saker {background-color: rgb(165, 35, 63);}
+    div a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      display:inline-block;
+    }
+    ul {
+      display: inline;
+      margin: auto;
+      padding: 0;
+    }
+    ul li {display: inline-block;}
+    ul li:hover {background: #555;}
+    ul li:hover ul {display: block;}
+    ul li ul {
+      position: absolute;
+      width: 200px;
+      display: none;
+    }
+    ul li ul li { 
+      background: #555; 
+      display: block; 
+    }
+    ul li ul li a {display:block !important;} 
+    ul li ul li:hover {background: #666;}
